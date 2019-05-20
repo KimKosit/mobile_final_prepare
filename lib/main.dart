@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mobile Final',
       theme: ThemeData(
+        // appBarTheme: AppBarTheme(color: Color(0xfffdd835)), //only appbar
         primarySwatch: myColor,
       ),
       initialRoute: '/',
